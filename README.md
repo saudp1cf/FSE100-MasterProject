@@ -116,10 +116,3 @@ Testing should be conducted in a controlled environment. This prototype is inten
 - Saud Alghanim
 - Abdullah Al Memari
 
-## Project Link
-
-[GitHub repository — FSE100-MasterProject](https://github.com/saudp1cf/FSE100-MasterProject)
-
-## License
-
-No license has been specified yet. Add a license if the team intends to permit reuse or redistribution of the project.
