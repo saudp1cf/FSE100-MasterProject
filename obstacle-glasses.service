@@ -1,0 +1,16 @@
+[Unit]
+Description=Smart obstacle detection glasses
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/obstacle-glasses
+EnvironmentFile=/etc/obstacle-glasses.env
+ExecStart=/usr/bin/python3 /home/pi/obstacle-glasses/test1.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
